@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+    <link rel="stylesheet" href="./index.css">
+     </head>
+  <body>
+    <header>
+    <nav>
+      <!--Internal Navigation in our website-->
+    <a href="./" class="chainLink">Home</a>
+    <a href="./About.html" class="chainLink">About</a>
+    <!--ext Navigation-->
+    <a href="https://zvrmoviez.com.ng" target="_blank" id="ZVR">ZVR Movies</a>
+   </nav>
+  </header>
+  <main class="chief">
+   <h1>Home Page</h1>
+    
+      <!--download stuff in HTML
+      <a href="./assets/images/Images/TestImg.jpg" download>Download Barn House</a>
+      -->
+   
+      <!--Embed audio and video in HTML
+      <audio src="./assets/Audio/Over_the_Horizon.mp3" controls></audio>
+      
+      <video src="./assets/Videos/20240503_164516.mp4" controls></video>
+    -->
+    <section class="grid">
+      <div class="grid-edit">pic 1</div>
+      <div class="grid-edit">pic 2</div>
+      <div class="grid-edit">pic 3</div>
+    </section>
+    <section>
+      <!--Forms in HTML-->
+      <form>
+        <br>     
+        <label>Choose your MVP</label>
+        <select>
+          <option value="">Drogba</option>
+          <option value="">Suarez</option>
+          <option value="">Rooney</option>
+        </select>
+        <br><br>
+        <label for="name">Full Name</label>
+        <input type="text" placeholder="Surname First"/>
+        <input type="submit" value="Send">
+      </form>
+    </section>
+  </main>
+  <details>
+    <summary>What is our Secret?</summary>
+    <p>I always pray to God and try my best to be a GOOD person</p>
+  </details>
+  <!--Testing out Forms with a bit of Javascript-->
+  <section>
+    <dialog open aria-labelledby="dialogid">
+    <form action="thankyou.php">
+      <button type="submit" aria-label="close" formmethod="dialog" formnovalidate>X</button>
+      <h2 id="dialogid">Application</h2>
+      <p>All Fields are Required</p>
+      <p>
+        <label>Name:
+          <input type="text" required name="name">
+        </label>
+      </p>
+      <p>
+        <label>Warranty:
+          <input type="number" required name="warranty" min="0" max="10">
+        </label>
+      </p>
+      <p>
+        <label>Power Source:
+          <select name="powersource">
+            <option>Wind</option>
+            <option>Solar</option>
+            <option>Hydro</option>
+          </select>
+        </label>
+      </p>
+    </form>
+  </section>
+  </body>
+</html>

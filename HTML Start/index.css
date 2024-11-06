@@ -1,0 +1,49 @@
+:root{
+  --fav-color: rgb(98, 9, 180);
+}
+
+body, html{
+  margin: 0;
+  padding: 0;
+}
+
+.chief, nav{
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header {
+  padding: 15px;
+}
+
+video {
+  width: 260px;
+  height: 250px;
+}
+
+nav a{
+  color: blue;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+#ZVR{
+  color: var(--fav-color);
+  font-weight: bolder;
+}
+
+.chainLink{
+  font-size: 20px;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 200px;
+  column-gap: 15px;
+}
+
+.grid-edit{
+  height: 200px;
+  background-color: grey;
+}
